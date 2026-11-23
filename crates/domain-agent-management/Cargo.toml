@@ -37,4 +37,4 @@ name = "agent-management"
 path = "src/main.rs"
 
 [build-dependencies]
-tonic-build = "0.12"
+tonic-build = "0.14"
