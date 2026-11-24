@@ -36,7 +36,7 @@ anyhow = "1.0.98"
 arboard = "3.4"
 base64 = "0.22.1"
 # Sea-ORM - 默认使用 SQLite，只在需要时启用 postgres
-sea-orm = { version = "1.1", default-features = false, features = ["sqlx-sqlite", "runtime-tokio", "macros", "with-uuid", "with-chrono"] }
+sea-orm = { version = "2.0", default-features = false, features = ["sqlx-sqlite", "runtime-tokio", "macros", "with-uuid", "with-chrono"] }
 sea-orm-migration = "1.1"
 tracing = { version = "0.1.41", default-features = false, features = ["log"] }
 tracing-subscriber = { version = "0.3.19", default-features = false, features = ["env-filter", "tracing-log"] }
