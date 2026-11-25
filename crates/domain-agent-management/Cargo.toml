@@ -12,7 +12,7 @@ domain-agent-protocol = { path = "../domain-agent-protocol" }
 tokio = { version = "1", features = ["full"] }
 tokio-tungstenite = "0.24"
 futures-util = "0.3"
-tonic = "0.12"
+tonic = "0.14"
 prost = "0.13"
 prost-build = "0.13"
 async-trait = "0.1"
