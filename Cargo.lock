@@ -1622,9 +1622,9 @@ dependencies = [
 
 [[package]]
 name = "domain-agent-management-web-dist-wrap"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6331f7b5c7be82184df12742e59933a4397a0d8bdc326b26a3a12f3df68e7bf7"
+checksum = "694db594b86a9c1d6273957f6774ec3affa949da3d0db210a8020e34c11cfbf7"
 dependencies = [
  "rust-embed",
 ]
